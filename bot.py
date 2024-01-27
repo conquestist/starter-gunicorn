@@ -49,7 +49,7 @@ def job():
       acc2 = octal_to_str(encrypted_acc2)
       requests.get(url+acc2)
       idOfInsta = "17841452627741485"
-      urll = "https://graph.facebook.com/v13.0/"+idOfInsta+"/media?image_url=https://persianencrypter.github.io/jpeg/4c44f07b45288bbce019fe0263fb4c9c.jpeg&caption="+jokeForUrl+'\n'+persianJoke+"&access_token="+acc2
+      urll = "https://graph.facebook.com/v13.0/"+idOfInsta+"/media?image_url=https://conquestist.github.io/jpeg/4c44f07b45288bbce019fe0263fb4c9c.jpeg&caption="+jokeForUrl+'\n'+persianJoke+"&access_token="+acc2
       reqForInsta = requests.post(urll)
       time.sleep(6)
       resOfInsta = reqForInsta.text
